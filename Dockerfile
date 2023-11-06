@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./sodimac/ /code/sodimac/
 
 # Ejecutar las pruebas con pytest
-CMD ["pytest", "./sodimac/tests/test_casos_de_uso.py"]
+CMD ["pytest", "-v", "./sodimac/tests/test_casos_de_uso.py"]
