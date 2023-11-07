@@ -1,6 +1,8 @@
 # Caso de prueba
 
 # Caso de prueba 1: Agregar Producto al Inventario
+
+
 def agregar_producto_al_inventario(nuevo_producto):
     """
     Simula la adición de un nuevo producto al inventario con valores válidos.
@@ -11,17 +13,21 @@ def agregar_producto_al_inventario(nuevo_producto):
     return producto_agregado
 
 # Caso de prueba 2: Crear Pedido de Producto
+
+
 def crear_pedido_producto(datos_validos):
     """
     Simula la creación de un pedido de un producto.
     Verifica que el pedido se haya creado correctamente y afecte el inventario.
     """
     # Implementación simulada para caja negra
-    pedido_creado = True if datos_validos else False
-    inventario_afectado = True if datos_validos else False
-    return pedido_creado, inventario_afectado
+    pedido_creado = datos_validos
+    inventario_afectado = datos_validos
+    return datos_validos
 
 # Caso de prueba 3: Notificar Niveles Mínimos de Inventario
+
+
 def notificar_niveles_minimos_inventario(inventario_alcanza_minimos):
     """
     Simula la notificación a los administradores cuando el inventario alcanza niveles mínimos.
@@ -32,6 +38,8 @@ def notificar_niveles_minimos_inventario(inventario_alcanza_minimos):
     return notificacion_enviada
 
 # Caso de prueba 4: Ejecutar Algoritmo de Reabastecimiento
+
+
 def ejecutar_algoritmo_reabastecimiento():
     """
     Simula la ejecución del algoritmo de reabastecimiento manualmente.
@@ -42,6 +50,8 @@ def ejecutar_algoritmo_reabastecimiento():
     return productos_reabastecidos
 
 # Caso de prueba 5: Validar Cantidad de Producto en Orden de Compra
+
+
 def validar_cantidad_producto_orden_compra(cantidad):
     """
     Simula la validación de la cantidad de productos en una orden de compra.
@@ -53,6 +63,8 @@ def validar_cantidad_producto_orden_compra(cantidad):
     return cantidad_valida, mensaje_error
 
 # Caso de prueba 6: Calcular Disponibilidad de Productos
+
+
 def calcular_disponibilidad_productos(stock_disponible, pedidos_pendientes):
     """
     Simula el cálculo de la disponibilidad de productos en función del stock y los pedidos pendientes.
@@ -63,6 +75,8 @@ def calcular_disponibilidad_productos(stock_disponible, pedidos_pendientes):
     return disponibilidad
 
 # Caso de prueba 7: Aplicar Descuento por Nivel de Stock
+
+
 def aplicar_descuento_por_nivel_stock(nivel_stock):
     """
     Simula la aplicación de descuentos a productos en función de su nivel de stock.
@@ -73,6 +87,8 @@ def aplicar_descuento_por_nivel_stock(nivel_stock):
     return descuento_aplicado
 
 # Caso de prueba 8: Sincronización con Proveedor
+
+
 def sincronizar_con_proveedor():
     """
     Simula la sincronización con el proveedor para mantener actualizado el inventario.
@@ -84,6 +100,8 @@ def sincronizar_con_proveedor():
     return sincronizacion_exitosa, datos_actualizados
 
 # Caso de prueba 9: Confirmación de Pedido
+
+
 def confirmar_pedido():
     """
     Simula la confirmación de un pedido de productos.
@@ -95,6 +113,8 @@ def confirmar_pedido():
     return pedido_confirmado, estado_inventario_actualizado
 
 # Caso de prueba 10: Acceso de Usuario no Autorizado
+
+
 def acceso_usuario_no_autorizado():
     """
     Simula el intento de acceso a funciones de modificación del inventario con un usuario no autorizado.
@@ -106,6 +126,8 @@ def acceso_usuario_no_autorizado():
     return acceso_denegado, mensaje_error
 
 # Caso de prueba 11: Manejo de Error en Comunicación con el Proveedor
+
+
 def manejar_error_comunicacion_proveedor(error_simulado):
     """
     Simula el manejo de errores de comunicación con el proveedor.
@@ -117,6 +139,8 @@ def manejar_error_comunicacion_proveedor(error_simulado):
     return error_registrado, mensaje_error
 
 # Caso de prueba 12: Publicación de Reseña de Producto
+
+
 def publicar_resena_producto(resena):
     """
     Simula la publicación de una reseña de producto por parte de los usuarios.
@@ -127,6 +151,8 @@ def publicar_resena_producto(resena):
     return reseña_publicada
 
 # Caso de prueba 13: Prueba de Compatibilidad con Navegadores
+
+
 def probar_compatibilidad_navegadores():
     """
     Simula la prueba de compatibilidad con diferentes navegadores web.
@@ -137,6 +163,8 @@ def probar_compatibilidad_navegadores():
     return compatibilidad_correcta
 
 # Caso de prueba 14: Búsqueda de producto por Nombre
+
+
 def buscar_producto_por_nombre(nombre_buscado, resultados_esperados):
     """
     Simula la funcionalidad de búsqueda de productos por nombre en el sistema de inventario.
@@ -147,6 +175,8 @@ def buscar_producto_por_nombre(nombre_buscado, resultados_esperados):
     return producto_encontrado
 
 # Caso de prueba 15: Compra de producto con descuento
+
+
 def comprar_producto_con_descuento(nivel_stock, precio_original):
     """
     Simula la compra de un producto con descuento en el proceso de compra.
@@ -157,6 +187,8 @@ def comprar_producto_con_descuento(nivel_stock, precio_original):
     return precio_final
 
 # Caso de prueba 16: Prueba de notificación al alcanzar niveles mínimos de inventario
+
+
 def probar_notificacion_niveles_minimos_inventario(inventario_alcanza_minimos):
     """
     Simula la notificación al alcanzar niveles mínimos de inventario.
