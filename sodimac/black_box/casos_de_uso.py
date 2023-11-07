@@ -1,9 +1,3 @@
-def iniciar_sesion():
-	return True
-
-def cerrar_sesion():
-	return True
-
 # Caso de prueba
 
 # Caso de prueba 1: Agregar Producto al Inventario
@@ -19,12 +13,12 @@ def agregar_producto_al_inventario(nuevo_producto):
 # Caso de prueba 2: Crear Pedido de Producto
 def crear_pedido_producto(datos_validos):
     """
-    Simula la creación de un pedido de productos con datos válidos.
+    Simula la creación de un pedido de un producto.
     Verifica que el pedido se haya creado correctamente y afecte el inventario.
     """
     # Implementación simulada para caja negra
-    pedido_creado = True
-    inventario_afectado = True
+    pedido_creado = True if datos_validos else False
+    inventario_afectado = True if datos_validos else False
     return pedido_creado, inventario_afectado
 
 # Caso de prueba 3: Notificar Niveles Mínimos de Inventario

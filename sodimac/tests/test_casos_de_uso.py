@@ -16,7 +16,7 @@ def test_agregar_producto_al_inventario():
     assert producto_agregado == True
 
 # Caso de prueba 2: Crear Pedido de Producto
-def test_crear_pedido_producto():
+def test_crear_pedido_producto_valido():
     pedido_creado, inventario_afectado = crear_pedido_producto({"datos_validos": True})
     assert pedido_creado == True
     assert inventario_afectado == True
@@ -96,7 +96,8 @@ def test_probar_notificacion_niveles_minimos_inventario():
     notificacion_enviada = probar_notificacion_niveles_minimos_inventario(True)
     assert notificacion_enviada == True
 
-# Caso de prueba 1: Agregar Producto al Inventario
-def test_agregar_producto_al_inventario():
-    producto_agregado = agregar_producto_al_inventario({"nuevo_producto": "Producto de prueba"})
-    assert producto_agregado == True
+# Caso de prueba 17: Creación de pedido con datos no validos
+def test_crear_pedido_producto_invalido():
+	pedido_creado, inventario_afectado = crear_pedido_producto({"datos_validos": False})
+	assert pedido_creado == False
+	assert inventario_afectado == False
