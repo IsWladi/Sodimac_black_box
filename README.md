@@ -1,6 +1,6 @@
 # Sodimac Black Box
 
-## Cómo levantar el ambiente de Jenkins y probar el pipeline.
+## Cómo levantar el ambiente de Jenkins y probar el pipeline
 
 ### 1: Levantar Jenkins de manera local
  - Tener instalado Docker Desktop o en su defecto Docker engine
